@@ -1,0 +1,141 @@
+body{
+	background-color: rgba(248, 240, 227, 0.842);
+	text-transform: uppercase;
+	font-family: "Open Sans";
+	padding-left: 100px;
+}
+.nav
+{
+	width: 70%;
+	margin: 0 auto 0 auto;
+	height: 80px
+
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+
+}
+ul li {
+	float: left;
+	background-color: #2eb2ff;
+
+}
+ul li a{
+	width: 150px;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+
+}
+a:hover{
+	background-color: rgba(65, 64, 64, 0.418);
+}
+ul li ul li{
+	background-color: rgba(107, 105, 105, 0.418);
+}
+ul li ul li{
+	float: none;
+}
+ul li ul{
+	display: none;
+}
+ul li:hover ul{
+	display: block;
+}
+
+.bounce {
+    transform: translatey(0);
+    animation: bounce 4s infinite;
+}
+.btnCTA {
+    color: #fff;
+    background-image: linear-gradient(1deg, #22d738, #a8f148);
+    box-shadow: 0 5px 13px 0 rgba(36, 216, 56, .34);
+    letter-spacing: .51px;
+}
+.btnCTA, .button {
+    border-radius: 8px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 240px;
+    outline: none;
+    font-family: brandon-grotesque;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    align-self: center;
+}
+a {
+    transition: all .3s;
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.btnSee:hover::before {
+    transform: translateX(0);
+}
+.btnSee::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-color: #36d9f7;
+    transition: .5s ease-in-out;
+    z-index: -1;
+    box-sizing: border-box;
+    content: "";
+}
+element {
+}
+.btnSee:hover {
+    color: #fff;
+}
+.buttonWrap > a {
+    margin: 0 20px 0 0;
+}
+.btnSee {
+    position: relative;
+    overflow: hidden;
+    color: #36d9f7;
+    border: 2px solid #36d9f7;
+    z-index: 10;
+}
+.btnCTA, .button {
+    border-radius: 8px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 240px;
+    outline: none;
+    font-family: brandon-grotesque;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+a {
+    transition: all .3s;
+    text-decoration: none;
+}
