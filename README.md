@@ -1,2 +1,4 @@
-# the_intellectual_kiddy
+
+
+work in progress
 My website for page :)
